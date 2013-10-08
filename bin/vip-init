@@ -89,6 +89,15 @@ echo "===--===--==--==--==--=="
 cat /etc/hosts | grep vip.dev || sudo printf "\n# VIP Quickstart\n10.86.73.80 vip.dev\n" | sudo tee -a /etc/hosts
 echo ""
 
+# =====================================
+# Do the custom things
+# =====================================
+echo "===--===--==--==--==--=="
+echo "=== Custom"
+echo "===--===--==--==--==--=="
+
+#vagrant up --no-provision && vagrant provision
+echo ""
 
 # =====================================
 # Outro/next steps
