@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# =====================================
+# Do the custom things
+# =====================================
+echo "===--===--==--==--==--=="
+echo "=== This is where I keep my custom things"
+echo "===--===--==--==--==--=="
+
+#vagrant up --no-provision && vagrant provision
+echo ""

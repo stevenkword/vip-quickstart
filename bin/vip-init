@@ -96,7 +96,7 @@ echo "===--===--==--==--==--=="
 echo "=== Custom"
 echo "===--===--==--==--==--=="
 
-#vagrant up --no-provision && vagrant provision
+./bin/custom-init
 echo ""
 
 # =====================================
