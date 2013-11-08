@@ -79,6 +79,9 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_LOG', true);
+define('WP_SCRIPT_DEBUG', true);
 define('SAVEQUERIES', true);
 define('JETPACK_DEV_DEBUG', true);
 
